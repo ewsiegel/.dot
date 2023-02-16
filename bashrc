@@ -38,5 +38,3 @@ function toggle () {
   echo "Toggled creds to:"
   creds
 }
-
-source ~/.bashrc_local
