@@ -18,3 +18,7 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " Use ctrl-t to open terminal below w/ that size
 nnoremap <C-t> :set termwinsize=10x0<CR>
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
