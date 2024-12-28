@@ -1,0 +1,69 @@
+[
+    {
+        "key": "cmd+q",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "workbench.action.terminal.killAll",
+                "workbench.action.closeAllEditors",
+                "workbench.action.closeAllGroups",
+                "workbench.action.closeWindow"
+            ]
+        }
+    },
+    {
+        "key": "cmd+t",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "workbench.action.terminal.new",
+            ]
+        }
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"  // Remove default ctrl+b binding
+    },
+    {
+        "key": "ctrl+b shift+5",  // For % (shift+5)
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "workbench.action.splitEditorRight",
+                "workbench.action.terminal.new",
+                "workbench.action.toggleEditorGroupLock"
+            ]
+        }
+    },
+    {
+        "key": "ctrl+b shift+'",  // For "
+        "command": "extension.multiCommand.execute", 
+        "args": {
+            "sequence": [
+                "workbench.action.splitEditorDown",
+                "workbench.action.terminal.new",
+                "workbench.action.toggleEditorGroupLock"
+            ]
+        }
+    },
+    {
+        "key": "ctrl+b left",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+b right",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+b up",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+b down",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+b x",
+        "command": "workbench.action.closeActiveEditor"
+    }
+] 

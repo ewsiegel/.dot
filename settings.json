@@ -1,0 +1,95 @@
+{
+  // Performance & Lightweight Settings
+  "workbench.enableExperiments": false,
+  "update.mode": "none",
+  "extensions.autoUpdate": false,
+
+  // Terminal Configuration
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.defaultLocation": "editor",
+  "workbench.panel.defaultLocation": "left",
+
+  // Minimalist UI
+  "workbench.statusBar.visible": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideStatusBar": false,
+  "zenMode.fullScreen": false,
+  "zenMode.restore": true,
+  "window.newWindowDimensions": "maximized",
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.multiCursorMergeOverlapping": true,
+
+  //pushes AI chat to the left
+  "workbench.sideBar.location": "right",
+  //other preferences
+  "window.restoreWindows": "none",
+  "files.hotExit": "off",
+  "window.closeWhenEmpty": true,
+  "workbench.editor.restoreViewState": false,
+  "files.restoreUndoStack": false,
+  "window.restoreFullscreen": true,
+  "workbench.editor.showTabs": "single",
+
+  // Absolute minimal cursor settings
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 1,
+  "editor.columnSelection": false,
+  
+  // Disable ALL highlighting and decorations
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.matchBrackets": "never",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.roundedSelection": false,
+  "editor.renderLineHighlight": "none",
+  
+  // Disable UI animations
+  "workbench.reduceMotion": "on",
+  "editor.smoothScrolling": false,
+  "workbench.list.smoothScrolling": false,
+  
+  // Disable background processes
+  "editor.semanticHighlighting.enabled": false,
+  "editor.semanticTokenColorCustomizations": {},
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  
+  // Disable hover and validation
+  "editor.hover.enabled": false,
+  "editor.hover.delay": 1500,
+  "editor.quickSuggestionsDelay": 1000,
+  "editor.parameterHints.enabled": false,
+  
+  // Minimal rendering
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.scrollBeyondLastLine": false,
+  "workbench.activityBar.location": "hidden",
+
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "~/.vimrc",
+  "vim.useSystemClipboard": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+}
