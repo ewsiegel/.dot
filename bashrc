@@ -49,3 +49,31 @@ function tag_from_email () {
     echo "unknown"
   fi
 }
+
+function env() {
+    if [ "$#" -lt 2 ]; then
+        echo "Usage: env /path/to/env/file command [args...]"
+        return 1
+    fi
+
+    env_file="$1"
+    shift
+    command="$@"
+
+    if [ ! -f "$env_file" ]; then
+        echo "Environment file not found: $env_file"
+        return 1
+    fi
+
+    # Create a subshell to isolate the environment changes
+    (
+        # Source the environment file
+        set -a
+        source "$env_file"
+        set +a
+
+        # Execute the command
+        eval "$command"
+    )
+}
+
